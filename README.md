@@ -1,7 +1,7 @@
 # Kotlin Deep Dives
 Deep dives into kotlin : 
 
-[1. Types](https://github.com/ANNASBlackHat/Kotlin-Deed-Dives/new/master?readme=1#types)
+[1. Types](https://github.com/ANNASBlackHat/Kotlin-Deep-Dives#types)
 
 ## Types
 Kotlin has no primitive data type.
