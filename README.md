@@ -1,5 +1,6 @@
 # Kotlin Deep Dives
 Deep dives into kotlin : 
+
 [1. Types](https://github.com/ANNASBlackHat/Kotlin-Deed-Dives/new/master?readme=1#types)
 
 ## Types
@@ -20,7 +21,7 @@ Kotlin has no primitive data type.
 **Unit**    : a type that allows only one value and thus can hold no information <br/>
 **Nothing** : a type that has no values
 
-> **Any** is a type at top of hierarchy
+> **Any** is a type at top of hierarchy <br/>
 **Nothing** is a type at bottom of hierarchy
 
 #### How to prevent NPEs when collaborate with Java code?
