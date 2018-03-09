@@ -8,6 +8,9 @@ Deep dives into kotlin :
 
 **Nothing** : a type that has no values
 
-> **Any** is a type at top of hierarchy
+Any is a type at top of hierarchy
 
-> **Nothing** is a type at bottom of hierarchy
+Nothing is a type at bottom of hierarchy
+
+
+How to prevent NPEs when collaborate with Java code?
