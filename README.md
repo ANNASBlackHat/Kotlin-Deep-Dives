@@ -42,3 +42,48 @@ println(list)  // [1,2,3]
 mutableList.add(4)
 println(list)  // [1,2,3,4]
 ```
+
+## RxJava with Kotlin
+RxJava is all about asynchronous data stream
+Example : 
+ - Click events
+ - Reading a file
+ - Database access
+ - Device sensor update
+ - Keyboard input
+ 
+Reasons why people love RxJava : 
+1. Chaining
+2. Threading
+3. Abstraction
+4. Non-Blocking
+5. Composable
+6. Avoid callbacks
+7. Data transformation
+
+#### Observable
+You can think observable as producing some sort of stream of events. It can happen either hot or a cold manner.
+**Hot Observable** doing work as soon as they're created.
+**Cold Observable** they don't work when susbcriber order to work.
+
+*Where the observable come from?*
+```Kotlin
+Observable.create<Int> { subscriber -> }
+//or
+Observable.just(item1, item2, item3)
+//or
+Observable.interval(2, TimeUnit.SECONDS)
+```
+#### Observer
+Observer is the abstraction that RxJava uses for listening or observing the various items or events that the observable is producing
+#### Operators
+Operators are what help you to transform combined and create observable
+**Map** Operator : 
+```Kotlin
+Observable.just(1,2,3)
+    .map { it * 2}  // Data transformation
+    .subscribe { println(it) }
+// output : 246
+```
+
+ 
