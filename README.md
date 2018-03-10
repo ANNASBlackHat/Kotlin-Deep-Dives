@@ -1,7 +1,7 @@
 # Kotlin Deep Dives
 Deep dives into kotlin : 
 
-[1. Types](https://github.com/ANNASBlackHat/Kotlin-Deep-Dives#types)
+[1. Types](https://github.com/ANNASBlackHat/Kotlin-Deep-Dives#types) <br/>
 [2. RxJava with Kotlin](https://github.com/ANNASBlackHat/Kotlin-Deep-Dives#rxjava-with-kotlin)
 
 ## Types
