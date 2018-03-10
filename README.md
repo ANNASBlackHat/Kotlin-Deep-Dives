@@ -63,9 +63,9 @@ Reasons why people love RxJava :
 7. Data transformation
 
 #### Observable
-You can think observable as producing some sort of stream of events. It can happen either hot or a cold manner.
-**Hot Observable** doing work as soon as they're created.
-**Cold Observable** they don't work when susbcriber order to work.
+You can think observable as producing some sort of stream of events. It can happen either hot or a cold manner. <br/>
+**Hot Observable** doing work as soon as they're created. <br/>
+**Cold Observable** they don't work when susbcriber order to work. <br/>
 
 *Where the observable come from?*
 ```Kotlin
@@ -78,7 +78,7 @@ Observable.interval(2, TimeUnit.SECONDS)
 #### Observer
 Observer is the abstraction that RxJava uses for listening or observing the various items or events that the observable is producing
 #### Operators
-Operators are what help you to transform combined and create observable
+Operators are what help you to transform combined and create observable. <br/>
 **Map** Operator : 
 ```Kotlin
 Observable.just(1,2,3)
