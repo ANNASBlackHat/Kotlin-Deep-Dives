@@ -2,6 +2,7 @@
 Deep dives into kotlin : 
 
 [1. Types](https://github.com/ANNASBlackHat/Kotlin-Deep-Dives#types)
+[2. RxJava with Kotlin](https://github.com/ANNASBlackHat/Kotlin-Deep-Dives#rxjava-with-kotlin)
 
 ## Types
 Kotlin has no primitive data type.
